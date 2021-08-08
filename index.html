@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Movies Information</title>
+</head>
+<body>
+
+    <div class="main ani">
+        <div class="search ani">
+            <input type="text" placeholder="Enter Movie Name" id="input">
+            <button class="btn"><i class="fas fa-search icon" id="btn"></i></button>
+        </div>
+        <h2 class="movie_title ani" id="title"></h2>
+        <div class="inf ani">
+            <h3 id="year" class="information ani"></h3>
+            <h3 id="length" class="information ani"></h3>
+            <h3 id="rating" class="information ani"></h3>
+        </div>
+        <div class="inf2 ani">
+            <img src="" class="pic ani" id="pic">
+            <div class="cast ani">
+                <h3 class="delete" id="delete">Cast</h3>
+                <hr class="delete" id="hr_delete">
+                <ul class="cast_list" id="cast">
+                    
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="plot">
+            <h3 class="plot_h3 ani" id="plot_h3"> </h3>
+        </div>
+        
+        
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
