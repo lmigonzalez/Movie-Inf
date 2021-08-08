@@ -8,8 +8,7 @@
 }
 
 .main{
-    width: auto;
-    max-width: 90%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -19,11 +18,11 @@
 }
 
 .search{
-    width: auto;
+    width: 500px;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     border-width: 5px;
     border-color: #000;
     background-color: #353b48;
@@ -78,7 +77,7 @@
 
 
 .inf{
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     display: flex;
     justify-content: space-around;
@@ -100,7 +99,7 @@
 }
 
 .inf2{
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     height: 400px;
     display: flex;
@@ -169,37 +168,37 @@
 
 @media (max-width: 768px) {
 
-    body{
-        margin-bottom: 50px;
-    }
 
-    .main{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        /* position: relative; */
-    }
 
-    .search{
-        margin-top: 40px;
-    }
-    .inf2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:space-between;
-    }
+   .main{
+       height: auto;
+       width: 90%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content:space-between;
+       
+       
+   }
 
-    .pic{
-        margin-bottom: 40px;
-    }
+   .search{
+       max-width: 400px;
+   }
 
-    .plot{
-        height: auto;
-        width: auto;
-    }
+   .inf{
+       width: 100%;
+   }
 
+   .inf2{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .cast{
+       margin-bottom: 50px;
+   }
 }
 
 @keyframes h3s {

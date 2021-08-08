@@ -6,7 +6,7 @@ const length = document.getElementById('length');
 const rating = document.getElementById('rating');
 const picture = document.getElementById('pic');
 const cast = document.getElementById('cast');
-const plot_h3 = document.getElementById('plot_h3');
+
 
 
 
@@ -35,7 +35,7 @@ btn.addEventListener('click', () =>{
             length.innerHTML = `Length: ${data.length}`;             
             rating.innerHTML = `Rating: ${data.rating}`; 
             picture.src = data.poster;
-            plot_h3.innerHTML = `Plot: ${data.plot}`;
+           
 
             document.getElementById('delete').classList.remove('delete');
             document.getElementById('hr_delete').classList.remove('delete');
