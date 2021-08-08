@@ -174,14 +174,28 @@
 
     .search{
         max-width: 350px;
-        padding: 5px 8px;
+        padding: 5px;
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
+        font-size: 1rem;
+    
+    }
+
+    .btn{
+        width: 30%;
+        text-align: center;
+        
+    }
+
+    #input{
+        width: 70%;
     }
 
     .icon{
         font-size: 1.5rem;
+        text-align: center;
+        
     }
 
     
@@ -214,36 +228,3 @@
     }
 }
 
-/* .main{
-    height: auto;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-between;
-    
-    
-}
-
-.search{
-    max-width: 300px;
-}
-
-.inf{
-    width: 100%;
-}
-
-.inf2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.pic{
-    margin-bottom: auto;
-}
-
-.cast{
-    margin-bottom: auto;
-} */
